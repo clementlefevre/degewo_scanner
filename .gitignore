@@ -1,0 +1,6 @@
+config.py
+*.xls
+*.db
+*.log
+env/
+*.pyc
