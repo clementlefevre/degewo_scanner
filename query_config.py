@@ -10,22 +10,6 @@ QUERY_STRING_1 = {
     "rooms_from": 3,
     "rooms_to": 10,
 }
-QUERY_STRING_1 = {
-    "utf8": "✓",
-    "property_type_id": "1",
-    "page": 1,
-    "rooms_radio": "custom",
-    "rooms_from": 3,
-    "rooms_to": 10,
-}
-QUERY_STRING_1bis = {
-    "utf8": "✓",
-    "property_type_id": "1",
-    "page": 1,
-    "rooms_radio": "custom",
-    "rooms_from": 3,
-    "rooms_to": 10,
-}
 
 
 QUERY_STRING_2_behinderfreunchlich = {
