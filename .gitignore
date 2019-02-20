@@ -4,3 +4,4 @@ config.py
 *.log
 env/
 *.pyc
+.csv

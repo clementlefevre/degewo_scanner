@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/ramon/anaconda3/envs/degewo/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": false
+}
