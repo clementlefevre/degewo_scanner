@@ -15,7 +15,7 @@ QUERY_STRING_1 = {
 QUERY_STRING_2_behinderfreunchlich = {
     "utf8": "✓",
     "property_type_id": "1",
-    "district": "33,28,71,64,4-65",
+    "district": "33, 46, 28, 71, 64",
     "page": 1,
     "rooms_radio": "custom",
     "rooms_from": 3,
@@ -25,7 +25,7 @@ QUERY_STRING_2_behinderfreunchlich = {
 QUERY_STRING_3_aufzug = {
     "utf8": "✓",
     "property_type_id": "1",
-    "district": "33,28,71,64,4-65",
+    "district": "33, 46, 28, 71, 64",
     "page": 1,
     "rooms_radio": "custom",
     "rooms_from": 3,
@@ -35,7 +35,7 @@ QUERY_STRING_3_aufzug = {
 QUERY_STRING_4_rollstuhl = {
     "utf8": "✓",
     "property_type_id": "1",
-    "district": "33,28,71,64,4-65",
+    "district": "33, 46, 28, 71, 64",
     "page": 1,
     "rooms_radio": "custom",
     "rooms_from": 3,
