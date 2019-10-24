@@ -8,6 +8,7 @@ import logging
 from random import randint
 from config import DEGEWO_GET_TIMER
 from service.send_email import send_notification
+import pathlib
 
 logger = logging.getLogger(__name__)
 
@@ -76,10 +77,12 @@ def reformat_df(df_retrieved, query):
 
 
 def save_sent_offers(df_retrieved):
+    
     try:
-        df_already_sent_offers = pd.read_csv("sent_offers.csv")
+        df_already_sent_offers = pd.read_csv("../sent_offers.csv")
 
     except Exception:
+        print(f'file not found - current folder : {pathlib.Path(__file__).parent}')
         df_already_sent_offers = pd.DataFrame()
         df_already_sent_offers["id_query"] = 0
 
@@ -90,13 +93,14 @@ def save_sent_offers(df_retrieved):
     if df_new_offers.shape[0] < 1:
         logging.info("No new offers found")
 
-    df_new_offers.to_csv("sent_offers.csv")
+    df_new_offers.to_csv("../sent_offers.csv")
     logging.info("new offers saved  :{} offers".format(df_new_offers.shape[0]))
 
     return df_new_offers
 
 
 def scrapper(query):
+    logging.info(f'current folder : {pathlib.Path(__file__).parent}')
     df_online_offers = pd.DataFrame()
 
     try:
