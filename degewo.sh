@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-cd /home/pi/degewo
-source env/bin/activate
+cd /home/pi/degewo_scanner
+source venv/bin/activate
 python main.py &
